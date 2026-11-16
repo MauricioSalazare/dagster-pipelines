@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "dagster==1.13.30",
+    "dagster-k8s>=0.29.30",
+    "dagster-postgres>=0.29.30",
+]
